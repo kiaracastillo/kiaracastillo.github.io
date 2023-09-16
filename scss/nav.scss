@@ -1,0 +1,88 @@
+//Navbar section
+nav{
+    
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+   padding: 10px;
+  // background-color: #1c252e;
+   margin-top: -20px;
+
+//logo img
+   .logo{
+    align-self: flex-start;
+    padding-top: 25px;
+    justify-content: center;
+    background-image: url("../images/Clipped_image_20230910_202139.png");
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size:contain;
+   // margin-top: 15px;
+    margin-left: 15px;
+    
+  
+   }
+//General styles
+   .menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+   }
+
+   li{
+    margin-right: 10px;
+
+   }
+
+   //Cart icon
+   .cart{
+    margin-top: 20px;
+    
+    
+.fa-cart-shopping{
+   
+    color: #7e7e7e;
+    width: 20px;
+    height: 20px;
+    
+
+}
+
+   }
+
+
+
+//login botton
+.login{
+    margin-left: 5px;
+   margin-top: 20px;
+
+        .fa-user {
+
+            margin-left: 10px;
+            color: #cf6676;
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+
+ // Links styles
+a{
+    color:#1c252e;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 15px;
+}
+a:hover{
+
+    color:#f19caf;
+}
+    
+}

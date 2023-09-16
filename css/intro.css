@@ -1,0 +1,16 @@
+.intro {
+  background-color: #212121;
+  margin: 50px 0 50px 0;
+}
+.intro p {
+  color: #7E7E7E;
+  font-size: 15px;
+}
+.intro h1 {
+  font-size: 80px;
+  color: #CF6679;
+}
+.intro h1 .pink {
+  color: #CF6679;
+  font-size: 100px;
+}

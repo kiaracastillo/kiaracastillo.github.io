@@ -1,0 +1,38 @@
+.site-wrapper .hero {
+  height: 630px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/heros.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/heros.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-wrapper .hero .callout {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+}
+.site-wrapper .hero .callout h1 {
+  color: white;
+  font-size: 40px;
+}
+.site-wrapper .hero .callout p {
+  color: white;
+  font-size: 20px;
+}
+.site-wrapper .hero .callout button {
+  background-color: #f19caf;
+  border: none;
+  width: 170px;
+  height: 40px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 60px;
+}
+.site-wrapper .hero .callout button:hover {
+  background-color: white;
+  color: #f19caf;
+  border: solid 1px #f19caf;
+}

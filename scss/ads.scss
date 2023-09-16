@@ -1,0 +1,38 @@
+.ad-sec{
+
+width: 100%;
+margin-top: 100px;
+  
+
+    .ads{
+        background-color: burlywood;
+        height: 260px;
+        
+        background-image: url("../images/add2.jpg");
+        background-repeat: no-repeat;
+       background-size:cover;
+
+        
+    }
+    .ad2{
+        background-color: burlywood;
+        height: 260px;
+        
+        background-image: url("../images/add.jpg");
+        background-repeat: no-repeat;
+       background-size:contain;
+    }
+    .ad3{
+        background-color: burlywood;
+        height: 260px;
+        display: flex;
+        justify-content: right;
+        margin-left: 600px;
+        margin-top: -260px;
+        
+        background-image: url("../images/add3.jpg");
+        background-repeat: no-repeat;
+       background-size:cover;
+    }
+}
+

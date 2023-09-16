@@ -1,0 +1,33 @@
+.ad-sec {
+  width: 100%;
+  margin-top: 100px;
+}
+.ad-sec .ads {
+  background-color: burlywood;
+  height: 260px;
+  background-image: url("../images/add2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ad-sec .ad2 {
+  background-color: burlywood;
+  height: 260px;
+  background-image: url("../images/add.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ad-sec .ad3 {
+  background-color: burlywood;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 600px;
+  margin-top: -260px;
+  background-image: url("../images/add3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

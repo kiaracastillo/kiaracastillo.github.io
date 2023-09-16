@@ -1,0 +1,49 @@
+.site-wrapper{
+
+.hero {
+   
+
+    height: 630px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(../images/heros.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+
+    .callout {
+
+        color: rgb(255, 255, 255);
+        margin: auto;
+      
+       text-align: center; 
+      
+       h1{
+        color: white;
+        font-size: 40px
+       }
+       p{
+        color: white;
+        font-size: 20px;
+       }
+
+       button{
+        background-color: #f19caf;
+        border: none;
+        width: 170px;
+        height: 40px;
+        margin-top: 30px;
+        color: white;
+        border-radius: 60px;
+       }
+       button:hover{
+        background-color: white;
+        color: #f19caf;
+        border: solid 1px #f19caf;
+       }
+
+    }
+
+}
+
+}

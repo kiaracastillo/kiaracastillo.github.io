@@ -1,0 +1,175 @@
+.animegame{
+
+.group{
+
+    
+    // background-color: #ffffff;
+     margin-top: 30px ;
+     margin-bottom: 30px;
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+  margin-bottom: 50px;
+ 
+ 
+     .ani1{
+ 
+         width: 250px;
+  height: 250px;
+  background-color: #212121;
+  justify-content: space-between;
+  margin: 0 20px 0 20px;
+  
+  background-image: url("../images/spyspy.jpg");
+  background-repeat: no-repeat;
+ background-size:cover;
+ 
+ 
+  
+ 
+     }
+ 
+ 
+ 
+     .ani2{
+ 
+       width: 250px;
+ height: 250px;
+ background-color: #212121;
+ justify-content: space-between;
+ margin: 0 20px 0 20px;
+
+ 
+    background-image: url("../images/sailormoon.jpg");
+    background-repeat: no-repeat;
+ background-size:cover;
+ 
+ 
+ 
+     }
+ 
+ 
+     .ani3{
+ 
+       width: 250px;
+ height: 250px;
+ background-color: #212121;
+ justify-content: space-between;
+ margin: 0 20px 0 20px;
+ 
+ 
+ background-image: url("../images/NarutoSageMode.png");
+ background-repeat: no-repeat;
+ background-size:cover;
+ 
+ 
+     }
+ 
+ 
+     .ani4{
+ 
+       width: 250px;
+ height: 250px;
+ justify-content: space-between;
+ margin: 0 20px 0 20px;
+ 
+ 
+    background-image: url("../images/spyspy.jpg");
+    background-repeat: no-repeat;
+ background-size:cover;
+ 
+ 
+     }
+
+
+     .gam1{
+ 
+        width: 250px;
+ height: 250px;
+ background-color: #212121;
+ justify-content: space-between;
+ margin: 0 20px 0 20px;
+ 
+ background-image: url("../images/mario.jpg");
+ background-repeat: no-repeat;
+background-size:cover;
+
+
+ 
+
+    }
+
+
+
+    .gam2{
+
+      width: 250px;
+height: 250px;
+background-color: #212121;
+justify-content: space-between;
+margin: 0 20px 0 20px;
+
+
+   background-image: url("../images/leage-of-legends.jpg");
+   background-repeat: no-repeat;
+background-size:cover;
+
+
+
+    }
+
+
+    .gam3{
+
+      width: 250px;
+height: 250px;
+background-color: #212121;
+justify-content: space-between;
+margin: 0 20px 0 20px;
+
+
+background-image: url("../images/gensh.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+
+    }
+
+
+    .gam4{
+
+      width: 250px;
+height: 250px;
+justify-content: space-between;
+margin: 0 20px 0 20px;
+
+
+   background-image: url("../images/zelda.png");
+   background-repeat: no-repeat;
+background-size:cover;
+
+
+    }
+
+     
+ }
+
+ button{
+    background-color: #f19caf;
+    border: none;
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+   }
+   button:hover{
+    background-color: white;
+    color: #f19caf;
+    border: solid 1px #f19caf;
+   }
+}

@@ -1,0 +1,64 @@
+.collec {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.collec .of1 {
+  width: 250px;
+  height: 250px;
+  background-color: #212121;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 20px;
+  border-radius: 120px;
+  background-image: url("../images/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collec .of2 {
+  width: 250px;
+  height: 250px;
+  background-color: #212121;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 20px;
+  border-radius: 120px;
+  background-image: url("../images/photo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collec .of3 {
+  width: 250px;
+  height: 250px;
+  background-color: #212121;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 20px;
+  border-radius: 120px;
+  background-image: url("../images/photo3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collec .of4 {
+  width: 250px;
+  height: 250px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 20px;
+  border-radius: 120px;
+  background-image: url("../images/photo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

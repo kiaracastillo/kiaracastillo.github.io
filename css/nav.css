@@ -1,0 +1,74 @@
+nav {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px;
+  margin-top: -20px;
+}
+nav .logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-top: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../images/Clipped_image_20230910_202139.png");
+  width: 120px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 15px;
+}
+nav .menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+nav li {
+  margin-right: 10px;
+}
+nav .cart {
+  margin-top: 20px;
+}
+nav .cart .fa-cart-shopping {
+  color: #7e7e7e;
+  width: 20px;
+  height: 20px;
+}
+nav .login {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+nav .login .fa-user {
+  margin-left: 10px;
+  color: #cf6676;
+  width: 20px;
+  height: 20px;
+}
+nav a {
+  color: #1c252e;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 15px;
+}
+nav a:hover {
+  color: #f19caf;
+}
